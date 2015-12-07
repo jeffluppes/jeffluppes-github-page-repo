@@ -68,4 +68,7 @@ theme: Hueman
 # Deployment
 ## Docs: http://hexo.io/docs/deployment.html
 deploy:
-  type:
+  type: git
+  repo: https://github.com/jeffluppes/jeffluppes.github.io.git
+  branch: master
+  message: Automated commit made by hexo deploy git on {{ now("YYYY-MM-DD HH:mm:ss") }}
